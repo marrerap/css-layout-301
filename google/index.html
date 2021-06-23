@@ -13,19 +13,27 @@
     <div class="container">
         <div style="height: 30vh;"></div>
         <div class="col-12 d-flex justify-content-center "><img src="logo.png" class="img-fluid mx-auto" style="height: 13vh;" alt="google logo"></div>
-        <div class=" col-12 input-group rounded-pill p-4 d-flex justify-content-center" style="width: 75vw;">                        
-            <span class="input-group-text border-0 rounded-pill" id="search-addon">
-                </i><img src="icon-search.svg" alt="">
-            </span>
-            <input type="search" class="form-control" aria-label="Search" aria-describedby="search-addon"/>
-            <span class="input-group-text border-0 rounded-pill" id="search-addon">
-                <img src="icon-mic.png" alt="">
-            </span>            
+        <div>
+            <nav class="navbar navbar-light col-12 bg-light rounded-pill justify-content-center p-0 m-4">
+                <form class="form-inline w-100">
+                  <div class="d-flex">
+                    <div class="input-group-prepend d-flex align-items-center">
+                      <span class=" border-0  id="basic-addon1"></i><img src="icon-search.svg" style="background-color: white;" alt=""></span>
+                    </div>
+                    <div class="d-flex flex-fill">
+                        <input type="text" class="form-control border-0 w-100 " aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group-append">
+                        <span class="input-group-text border-0 m-0 p-0" id="basic-addon1"></i><img src="icon-mic.png" style="background-color: white;" alt=""></span>
+                    </div>
+                  </div>
+                </form>
+              </nav>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-center">
             <button type="button" class="btn btn-light btn-small">Google Search</button>
             <button type="button" class="btn btn-light btn-small">I'm Feeling Lucky</button>            
-        </div>
+        </div>        
     </div>
 </body>
 </html>
